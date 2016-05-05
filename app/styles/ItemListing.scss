@@ -1,0 +1,53 @@
+.itemListingContainer {
+    padding: 15px;
+
+    &:first-child {
+        padding-top: 0;
+    }
+    .itemListing {
+        .itemListingLeft {
+            img {
+                height: 100px;
+            }
+        }
+
+        .itemListingMiddle {
+            padding: 15px;
+            .title {
+                font-weight: bold;
+            }
+
+            .chips {
+                span {
+                    &.label {
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+
+        .itemListingRight {
+            padding: 15px;
+
+            .price {
+                font-size: 15pt;
+                text-align: center;
+                font-weight: bold;
+                line-height: 60px;
+            }
+
+            .viewInOB {
+                text-align: center;
+            }
+        }
+
+        .itemId {
+            color: #999;
+            font-size: 80%;
+        }
+
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        box-shadow: 0px 1px 9px #666;
+    }
+}
