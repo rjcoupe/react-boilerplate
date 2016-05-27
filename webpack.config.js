@@ -46,7 +46,7 @@ module.exports = {
     plugins: [
         new ExtractTextPlugin('bundle.css'),
         new HtmlWebpackPlugin({
-            title: 'Throwdown.online',
+            title: 'TITLE TO BE ADDED',
             template: 'app/assets/index-template.ejs'
         })
     ]
